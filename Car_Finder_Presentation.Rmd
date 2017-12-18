@@ -1,0 +1,28 @@
+---
+title: "Car Finder Application"
+author: "AG"
+date: "18 December 2017"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Car Finder 
+
+The 'car finder' application helps you search the 'mtcars' database to find the cars that correspond to your needs.
+
+## How to use the app
+
+1. Select the mpg range that you wish for your future car
+2. Select the desired number of cylinder for your car
+
+## The mtcars database (extract) 
+
+```{r cars, echo = FALSE}
+head(mtcars)
+```
+
+## Thank you 
+
